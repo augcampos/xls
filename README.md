@@ -17,6 +17,7 @@ Forked from
 - ✅ Refactored core internals for clarity and maintainability
 - ✅ Added detailed inline documentation and comments
 - ✅ Improved test coverage and modernized test suite
+- ✅ Workbook Stream tag in some xls files came as WORKBOOK
 
 ---
 
