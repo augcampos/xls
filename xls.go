@@ -78,10 +78,6 @@ func OpenReader(reader io.ReadSeeker) (*WorkBook, error) {
 				// also found some cases with "WORKBOOK"
 				book = file 
 			}
-		case "Book":
-			if book == nil {
-				book = file // Fallback to "Book" only if "Workbook" wasn't seen first
-			}
 		case "Root Entry":
 			root = file // Needed as context for resolving internal paths
 		}
