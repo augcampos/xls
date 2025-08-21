@@ -1,4 +1,4 @@
-module github.com/MeKo-Christian/xls
+module github.com/augcampos/xls
 
 go 1.23.0
 
