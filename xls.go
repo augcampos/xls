@@ -76,7 +76,7 @@ func OpenReader(reader io.ReadSeeker) (*WorkBook, error) {
 				// Prefer "Workbook" if it's the first one found
 				// Fallback to "Book" only if "Workbook" wasn't seen first
 				// also found some cases with "WORKBOOK"
-				book = file 
+				book = file
 			}
 		case "Root Entry":
 			root = file // Needed as context for resolving internal paths
