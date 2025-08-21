@@ -1,11 +1,13 @@
 # xls
 
-[![GoDoc](https://godoc.org/github.com/MeKo-Christian/xls?status.svg)](https://godoc.org/github.com/MeKo-Christian/xls)
+[![GoDoc](https://godoc.org/github.com/augcampos/xls?status.svg)](https://godoc.org/github.com/augcampos/xls)
 
 A pure Go library for reading Microsoft Excel `.xls` (BIFF8) files.
 
 This is a maintained and modernized fork of the original library by [Rongshu Tech (Chinese)](http://www.rongshu.tech), based on [libxls](https://github.com/libxls/libxls).  
 Special thanks to original contributors including [@tgulacsi](https://github.com/tgulacsi) and [@flyin9](https://github.com/flyin9).
+
+Forked from 
 
 ---
 
@@ -21,7 +23,7 @@ Special thanks to original contributors including [@tgulacsi](https://github.com
 ## 📦 Basic Usage
 
 ```go
-import "github.com/MeKo-Christian/xls"
+import "github.com/augcampos/xls"
 
 // Open from file (auto-closes on error)
 wb, err := xls.Open("example.xls")
@@ -42,7 +44,7 @@ defer f.Close()
 wb, err := xls.OpenStream(f)
 ```
 
-See [GoDoc](https://godoc.org/github.com/MeKo-Christian/xls) for full API documentation and examples.
+See [GoDoc](https://godoc.org/github.com/augcampos/xls) for full API documentation and examples.
 
 ---
 
