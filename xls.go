@@ -71,7 +71,7 @@ func OpenReader(reader io.ReadSeeker) (*WorkBook, error) {
 	// The standard name is "Workbook", but some files use "Book" instead.
 	for _, file := range dir {
 		switch file.Name() {
-		case "Workbook", "Book", "WORKBOOK" :
+		case "Workbook", "Book", "WORKBOOK":
 			if book == nil {
 				// Prefer "Workbook" if it's the first one found
 				// Fallback to "Book" only if "Workbook" wasn't seen first
